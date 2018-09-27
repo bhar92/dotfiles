@@ -116,8 +116,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export PATH=$PATH:/home/bhar/CODES/scorep-3.1/install/bin:/home/bhar/CODES/spack/bin
-export SCOREP_INSTALL=/home/bhar/CODES/scorep-3.1/install
 export PATH=$PATH:/opt/intel/system_studio_2018/bin
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/home/bhar/google-cloud-sdk/path.bash.inc' ]; then source '/home/bhar/google-cloud-sdk/path.bash.inc'; fi
