@@ -5,6 +5,7 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
+" cd ~/.vim/bundle && git clone https://github.com/srcery-colors/srcery-vim
 " Colorscheme
 set t_Co=256
 colorscheme srcery
